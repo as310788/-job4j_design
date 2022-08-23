@@ -6,3 +6,5 @@
 [Box Test](https://github.com/as310788/-job4j_design/blob/master/images/BoxTest.png)
 3. Утверждения с исключениями[#504886] 
 [nameload](https://github.com/as310788/-job4j_design/commit/ecc13121a3d6381e11d0a3e11f662f46c7c99660)
+4. Утверждения с коллекциями [#504885]
+[Simpleconvert](https://github.com/as310788/-job4j_design/blob/master/images/Simpleconvert.png)
