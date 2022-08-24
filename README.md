@@ -14,5 +14,5 @@
 [matrixit](https://github.com/as310788/-job4j_design/commit/b8af2cbeba64ab701de82851a620d6f58124d71c)
 7. 5.1.2.Итератор четных чисел+тест[#150]
 [evennumberiterator](https://github.com/as310788/-job4j_design/commit/2b6b402b4c8a6aef6bc1028b27f014dc3799f511)
-8. 5.1.4. FlatMap для Iterator<Iterator> [#152]
+8. 5.1.4. FlatMap для Iterator<Iterator>+тесты[#152]
 [flatmap](https://github.com/as310788/-job4j_design/commit/ae86895ded153f39da39c14a729e4c395577b814)
