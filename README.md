@@ -8,5 +8,5 @@
 [nameload](https://github.com/as310788/-job4j_design/commit/ecc13121a3d6381e11d0a3e11f662f46c7c99660)
 4. Утверждения с коллекциями [#504885]
 [Simpleconvert](https://github.com/as310788/-job4j_design/blob/master/images/Simpleconvert.png)
-5. 1. Что такое итератор. [#4951]
+5. 1. Что такое итератор. +тесты[#4951]
 [backwardarrait](https://github.com/as310788/-job4j_design/commit/b13254550450894909fa54abfc67ca7fce895cbd)
