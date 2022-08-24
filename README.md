@@ -12,3 +12,5 @@
 [backwardarrait](https://github.com/as310788/-job4j_design/commit/b13254550450894909fa54abfc67ca7fce895cbd)
 6. 5.1.1.5.1.1. Итератор для двухмерного массива int[][][#9539 #335979]
 [matrixit](https://github.com/as310788/-job4j_design/commit/b8af2cbeba64ab701de82851a620d6f58124d71c)
+7. 5.1.2.Итератор четных чисел [#150]
+[evennumberiterator](https://github.com/as310788/-job4j_design/commit/2b6b402b4c8a6aef6bc1028b27f014dc3799f511)
