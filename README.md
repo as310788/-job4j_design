@@ -10,5 +10,5 @@
 [Simpleconvert](https://github.com/as310788/-job4j_design/blob/master/images/Simpleconvert.png)
 5. 1. Что такое итератор. +тесты[#4951]
 [backwardarrait](https://github.com/as310788/-job4j_design/commit/b13254550450894909fa54abfc67ca7fce895cbd)
-6. 5.1.1. Итератор для двухмерного массива int[][]+тесты[#9539]
+6. 5.1.1.5.1.1. Итератор для двухмерного массива int[][][#9539 #335979]
 [matrixit](https://github.com/as310788/-job4j_design/commit/b8af2cbeba64ab701de82851a620d6f58124d71c)
