@@ -49,28 +49,4 @@ public class Generics {
             System.out.println("Текущий элемент: " + next);
         }
     }
-
-    static class Animal {
-        String name = "Animal";
-
-        public String toString() {
-            return name;
-        }
-    }
-
-    static class Predator extends Animal {
-        String name = "Predator";
-
-        public String toString() {
-            return name;
-        }
-    }
-
-    static class Tiger extends Predator {
-        String name = "Tiger";
-
-        public String toString() {
-            return name;
-        }
-    }
 }
