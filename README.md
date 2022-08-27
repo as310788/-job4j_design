@@ -16,5 +16,5 @@
 [evennumberiterator](https://github.com/as310788/-job4j_design/commit/2b6b402b4c8a6aef6bc1028b27f014dc3799f511)
 8. 5.1.4. FlatMap для Iterator<Iterator>+тесты[#152]
 [flatmap](https://github.com/as310788/-job4j_design/commit/ae86895ded153f39da39c14a729e4c395577b814)
-9. 00. Что такое обобщенные типы (generics) +[#4952 #336315]
+9. 00. Что такое обобщенные типы (generics)[#4952 #336315]
 [generics](https://github.com/as310788/-job4j_design/commit/d5d705e180657c0082260da37f209e75b09eec2c)
