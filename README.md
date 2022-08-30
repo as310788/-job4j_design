@@ -18,3 +18,5 @@
 [flatmap](https://github.com/as310788/-job4j_design/commit/ae86895ded153f39da39c14a729e4c395577b814)
 9. 00. Что такое обобщенные типы (generics)[#4952 #336315]
 [generics](https://github.com/as310788/-job4j_design/commit/d5d705e180657c0082260da37f209e75b09eec2c)
+10. 5.2.2. Реализовать Store<T extends Base> [#157]
+[UserStore](https://github.com/as310788/-job4j_design/commit/eb43d2525dee4ca9d4b08289bacc25f8c166c183)
