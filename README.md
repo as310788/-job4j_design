@@ -20,5 +20,5 @@
 [generics](https://github.com/as310788/-job4j_design/commit/d5d705e180657c0082260da37f209e75b09eec2c)
 10. 5.2.2. Реализовать Store<T extends Base>+тест[#157]
 [UserStore](https://github.com/as310788/-job4j_design/commit/eb43d2525dee4ca9d4b08289bacc25f8c166c183)
-11. 1. Динамический список на массиве. [#158]
+11. 1. Динамический список на массиве+тест[#158]
 [SimpleArayList](https://github.com/as310788/-job4j_design/commit/68d6cdad26d20ac77905ba9a5414a52d1ca49ca5)
