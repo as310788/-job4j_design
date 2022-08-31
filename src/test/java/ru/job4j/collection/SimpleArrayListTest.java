@@ -4,7 +4,6 @@ import static org.assertj.core.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.util.NoSuchElementException;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
