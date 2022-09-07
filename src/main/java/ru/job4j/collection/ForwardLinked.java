@@ -26,6 +26,7 @@ public class ForwardLinked<T> implements Iterable<T> {
         Node<T> delete = head.next;
         T rsl = head.value;
         head.next = null;
+        head.value = null;
         head = delete;
         return rsl;
     }
