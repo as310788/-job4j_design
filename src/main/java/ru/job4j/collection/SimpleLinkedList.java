@@ -9,30 +9,30 @@ public class SimpleLinkedList<E> implements LinkedList<E> {
 
     private int modCount;
     private int size;
-    private Node<E> first;
-    private Node<E> last;
+    private Node<E> firstNode;
+    private Node<E> lastNode;
 
     private static class Node<E> {
         E item;
-        Node<E> next;
-        Node<E> prev;
+        Node<E> nextNode;
+        Node<E> prevNode;
 
-        Node(Node<E> prev, E element, Node<E> next) {
+        Node(Node<E> prevNode, E element, Node<E> nextNode) {
             this.item = element;
-            this.next = next;
-            this.prev = prev;
+            this.nextNode = nextNode;
+            this.prevNode = prevNode;
         }
     }
 
     @Override
     public void add(E e) {
-        final Node<E> l = last;
+        final Node<E> l = lastNode;
         final Node<E> newNode = new Node<>(l, e, null);
-        last = newNode;
+        lastNode = newNode;
         if (l == null) {
-            first = newNode;
+            firstNode = newNode;
         } else {
-            l.next = newNode;
+            l.nextNode = newNode;
         }
         size++;
         modCount++;
@@ -41,21 +41,20 @@ public class SimpleLinkedList<E> implements LinkedList<E> {
     @Override
     public E get(int index) {
         Objects.checkIndex(index, size);
-        Node<E> point = first;
-        int count = 0;
-        while (count != index) {
-            point = point.next;
-            count++;
+        Node<E> rsl = firstNode;
+        for (int i = 1; i <= index; i++) {
+            rsl = rsl.nextNode;
         }
-        return point.item;
+        return  rsl.item;
     }
 
     @Override
     public Iterator<E> iterator() {
         return new Iterator<E>() {
             private final int expectedModCount = modCount;
-            private int count = 0;
-            Node<E> point = first;
+            private int count;
+            Node<E> point = firstNode;
+            E value;
 
             @Override
             public boolean hasNext() {
@@ -70,13 +69,10 @@ public class SimpleLinkedList<E> implements LinkedList<E> {
                 if (!hasNext()) {
                     throw new NoSuchElementException();
                 }
-                if (count == 0) {
-                    point = first;
-                } else {
-                    point = point.next;
-                }
+                value = point.item;
+                point = point.nextNode;
                 count++;
-                return point.item;
+                return value;
             }
         };
     }
