@@ -24,5 +24,5 @@
 [SimpleArayList](https://github.com/as310788/-job4j_design/commit/68d6cdad26d20ac77905ba9a5414a52d1ca49ca5)
 12. 2. Создать контейнер на базе связанного-списка[#159 #340182]
 [SimpleLinkedlist](https://github.com/as310788/-job4j_design/commit/ffed66927e8e8aca0fd2f01846fd520ec71b3d8a)
-13. 3. Удалить head в односвязном списке. [#51424]
+13. 3. Удалить head в односвязном списке+тест [#51424]
 [deleteFirst](https://github.com/as310788/-job4j_design/commit/94bdd85eeb820012f1cff38f9e6b191c8aebc22d)
