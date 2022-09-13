@@ -28,5 +28,5 @@
 [deleteFirst](https://github.com/as310788/-job4j_design/commit/94bdd85eeb820012f1cff38f9e6b191c8aebc22d)
 14. 4. Используя контейнер на базе связанного списка создать контейнер Stack+тест[#71474]
 [SimpleStack](https://github.com/as310788/-job4j_design/blob/master/images/SimpleStack.png)
-15. 5. Очередь на двух стеках [#160]
+15. 5. Очередь на двух стеках+тест[#160]
 [SimpleQueue](https://github.com/as310788/-job4j_design/blob/master/images/SimpleQueue.png)
