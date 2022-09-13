@@ -26,5 +26,5 @@
 [SimpleLinkedlist](https://github.com/as310788/-job4j_design/commit/ffed66927e8e8aca0fd2f01846fd520ec71b3d8a)
 13. 3. 3. Удалить head в односвязном списке. [#51424 #340668]
 [deleteFirst](https://github.com/as310788/-job4j_design/commit/94bdd85eeb820012f1cff38f9e6b191c8aebc22d)
-14. 4. Используя контейнер на базе связанного списка создать контейнер Stack [#71474]
+14. 4. Используя контейнер на базе связанного списка создать контейнер Stack+тест[#71474]
 [SimpleStack](https://github.com/as310788/-job4j_design/blob/master/images/SimpleStack.png)
