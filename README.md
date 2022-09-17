@@ -32,5 +32,5 @@
 [SimpleQueue](https://github.com/as310788/-job4j_design/blob/master/images/SimpleQueue.png)
 16. 6. Перевернуть связанный-список[#161 #342823]
 [revert](https://github.com/as310788/-job4j_design/blob/master/images/revert.png)
-17. 7. ListIterator+тест[#350217]
+17. 7. ListIterator [#350217 #344406]
 [ListUtils](https://github.com/as310788/-job4j_design/blob/master/images/ListUtils.png)
