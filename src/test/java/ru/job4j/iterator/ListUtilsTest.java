@@ -38,7 +38,7 @@ class ListUtilsTest {
     void whenRemoveIf() {
         List<Integer> input = new ArrayList<Integer>(Arrays.asList(0, 1, 2, 3, 4, 5, 6));
         ListUtils.removeIf(input, f -> f > 2);
-        assertThat(input).hasSize(3).containsSequence(1, 2, 3);
+        assertThat(input).hasSize(3).containsSequence(0, 1, 2);
     }
 
         @Test
