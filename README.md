@@ -36,3 +36,5 @@
 [ListUtils](https://github.com/as310788/-job4j_design/blob/master/images/ListUtils.png)
 18. 1. Реализовать коллекцию Set на массиве+тест[#996]
 [SimpleSet](https://github.com/as310788/-job4j_design/blob/master/images/SimpleSet.png)
+19. 1. Создать модель User [#999]
+[User](https://github.com/as310788/-job4j_design/blob/master/images/User.png)
