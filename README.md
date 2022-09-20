@@ -20,7 +20,7 @@
 [generics](https://github.com/as310788/-job4j_design/commit/d5d705e180657c0082260da37f209e75b09eec2c)
 10. 5.2.2. Реализовать Store<T extends Base>+тест[#157]
 [UserStore](https://github.com/as310788/-job4j_design/commit/eb43d2525dee4ca9d4b08289bacc25f8c166c183)
-11. 1. Динамический список на массиве. [#158 #338333]
+11. . Динамический список на массиве. [#158 #338552]
 [SimpleArayList](https://github.com/as310788/-job4j_design/commit/68d6cdad26d20ac77905ba9a5414a52d1ca49ca5)
 12. 2. Создать контейнер на базе связанного-списка[#159 #340182]
 [SimpleLinkedlist](https://github.com/as310788/-job4j_design/commit/ffed66927e8e8aca0fd2f01846fd520ec71b3d8a)
@@ -32,5 +32,7 @@
 [SimpleQueue](https://github.com/as310788/-job4j_design/blob/master/images/SimpleQueue.png)
 16. 6. Перевернуть связанный-список[#161 #342823]
 [revert](https://github.com/as310788/-job4j_design/blob/master/images/revert.png)
-17. 77. ListIterator [#350217 #344406]
+17. 77. ListIterator[#350217 #344406]
 [ListUtils](https://github.com/as310788/-job4j_design/blob/master/images/ListUtils.png)
+18. 1. Реализовать коллекцию Set на массиве [#996]
+[SimpleSet](https://github.com/as310788/-job4j_design/blob/master/images/SimpleSet.png)
