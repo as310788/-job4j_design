@@ -30,7 +30,7 @@ public class SimpleArrayList<T> implements SimpleList<T> {
         this.modCount++;
     }
         @Override
-        public T set ( int index, T newValue){
+        public T set(int index, T newValue) {
             T prev = get(index);
             container[index] = newValue;
             return prev;
