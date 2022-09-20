@@ -34,5 +34,5 @@
 [revert](https://github.com/as310788/-job4j_design/blob/master/images/revert.png)
 17. 77. ListIterator[#350217 #344406]
 [ListUtils](https://github.com/as310788/-job4j_design/blob/master/images/ListUtils.png)
-18. 1. Реализовать коллекцию Set на массиве [#996]
+18. 1. Реализовать коллекцию Set на массиве+тест[#996]
 [SimpleSet](https://github.com/as310788/-job4j_design/blob/master/images/SimpleSet.png)
