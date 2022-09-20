@@ -14,21 +14,27 @@ public class SimpleArrayList<T> implements SimpleList<T> {
         this.container = (T[]) new Object[capacity];
     }
 
-    @Override
-    public void add(T value) {
-        if (size == container.length) {
-            container = Arrays.copyOf(container, container.length * 2);
+    private void grow() {
+        if (container.length == 0) {
+            this.container = Arrays.copyOf(this.container, 2);
         }
-        container[size++] = value;
-        modCount++;
+        this.container = Arrays.copyOf(this.container, this.container.length * 2);
     }
 
     @Override
-    public T set(int index, T newValue) {
-        T prev = get(index);
-        container[index] = newValue;
-        return prev;
+    public void add(T value) {
+        if (size >= container.length) {
+            grow();
+        }
+        this.container[size++] = value;
+        this.modCount++;
     }
+        @Override
+        public T set ( int index, T newValue){
+            T prev = get(index);
+            container[index] = newValue;
+            return prev;
+        }
 
     @Override
     public T remove(int index) {
