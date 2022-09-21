@@ -30,7 +30,7 @@ public class User {
         map.put(user2, new Object());
         System.out.printf("user1 - хэшкод: %s, хэш: %s, бакет: %s",
                 hashCode1, hash1, bucket1);
-        System.out.printf(" / user2 - хэшкод: %s, хэш: %s, бакет: %s",
+        System.out.printf(" /  user2 - хэшкод: %s, хэш: %s, бакет: %s",
                 hashCode2, hash2, bucket2);
     }
 }
