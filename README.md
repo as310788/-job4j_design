@@ -38,3 +38,5 @@
 [SimpleSet](https://github.com/as310788/-job4j_design/blob/master/images/SimpleSet.png)
 19. 1. Создать модель User [#999]
 [User](https://github.com/as310788/-job4j_design/blob/master/images/User.png)
+20. 2. Без переопределения equals и hashCode [#1005]
+[UserHashCode](https://github.com/as310788/-job4j_design/blob/master/images/User%20HashCode.png)
