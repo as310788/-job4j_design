@@ -40,3 +40,6 @@
 [User](https://github.com/as310788/-job4j_design/blob/master/images/User.png)
 20. 2. Без переопределения equals и hashCode [#1005]
 [UserHashCode](https://github.com/as310788/-job4j_design/blob/master/images/User%20HashCode.png)
+21. 8. Реализовать собственную структуру данных - HashMap [#1008]
+[SimpleMap](https://github.com/as310788/-job4j_design/blob/master/images/SimpleMap.png)
+
