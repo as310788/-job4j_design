@@ -42,8 +42,8 @@
 [UserHashCode](https://github.com/as310788/-job4j_design/blob/master/images/User%20HashCode.png)
 21. 8. Реализовать собственную структуру данных - HashMap+тест[#1008]
 [SimpleMap](https://github.com/as310788/-job4j_design/blob/master/images/SimpleMap.png)
-22. 1. Создать элементарную структуру дерева+тест[#1711]
+1. Создать элементарную структуру дерева+тест[#1711 #351597]
 [SimpleTree](https://github.com/as310788/-job4j_design/blob/master/images/SimpleTree.png)
-23. 2. Добавить метод boolean isBinary()+тест[#1712]
+23. 2. Добавить метод boolean isBinary()+тест [#1712]
 [SimpleTreebinari](https://github.com/as310788/-job4j_design/blob/master/images/SimpleTreebinary.png)
 
