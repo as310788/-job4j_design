@@ -48,4 +48,6 @@
 [SimpleTreebinari](https://github.com/as310788/-job4j_design/blob/master/images/SimpleTreebinary.png)
 24. 2. Статистика по коллекции+тест[#45889]
 [Analize Question](https://github.com/as310788/-job4j_design/blob/master/images/analize%20question.png)
+25. 0.1. FileOutputStream. [#252488]
+[Multiple](https://github.com/as310788/-job4j_design/blob/master/images/Multiple.png)
 
