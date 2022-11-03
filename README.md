@@ -50,4 +50,6 @@
 [Analize Question](https://github.com/as310788/-job4j_design/blob/master/images/analize%20question.png)
 25. 0.1. FileOutputStream. [#252488 #356490]
 [Multiple](https://github.com/as310788/-job4j_design/blob/master/images/Multiple.png)
+26. 0.2. FileInputStream [#4898]
+[EvenNumberFile](https://github.com/as310788/-job4j_design/blob/master/images/EvenNumberFile.png)
 
