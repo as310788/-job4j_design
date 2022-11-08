@@ -52,8 +52,8 @@
 [Multiple](https://github.com/as310788/-job4j_design/blob/master/images/Multiple.png)
 26. 0.2. FileInputStream [#4898]
 [EvenNumberFile](https://github.com/as310788/-job4j_design/blob/master/images/EvenNumberFile.png)
-27.   0.4. BufferedOutputStream [#252490 #358934]
+27.   0.3. BufferedReader. [#252489 #358923]
 [LogFilter](https://github.com/as310788/-job4j_design/blob/master/images/LogFilter.png)
-28. 0.4. BufferedOutputStream[#252490]
+28. 0.4. BufferedOutputStream [#252490 #358934]
 [SaveLogFiler](https://github.com/as310788/-job4j_design/blob/master/images/SaveLogFilter.png)
 
