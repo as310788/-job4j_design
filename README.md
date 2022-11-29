@@ -56,6 +56,6 @@
 [LogFilter](https://github.com/as310788/-job4j_design/blob/master/images/LogFilter.png)
 28. 0.4. BufferedOutputStream [#252490 #358934]
 [SaveLogFiler](https://github.com/as310788/-job4j_design/blob/master/images/SaveLogFilter.png)
-1. Читаем файл конфигурации+тест[#858 #363125]
+1. Читаем файл конфигурации[#858 #363125]
 [Config](https://github.com/as310788/-job4j_design/blob/master/images/Config.png)
 
