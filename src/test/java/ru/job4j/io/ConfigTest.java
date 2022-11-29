@@ -54,4 +54,23 @@ class ConfigTest {
         assertThatThrownBy(config::load)
                 .isInstanceOf(IllegalArgumentException.class);
     }
+
+    @Test
+    void whenNotAllNull() throws IllegalArgumentException {
+        String path = "app.properties";
+        Config config = new Config(path);
+        assertThat(config.value(null)).isEqualTo(null);
+        assertThatThrownBy(config::load)
+        .isInstanceOf(IllegalArgumentException.class);
+    }
+
+    @Test
+    public void whenNullFormatValue() throws IllegalArgumentException {
+        String path ="app.properties";
+        Config config = new Config(path);
+        assertThat(config.value("Anton")).isEqualTo(null);
+        assertThat(config.value("username")).isEqualTo(null);
+        assertThatThrownBy(config::load)
+                .isInstanceOf(IllegalArgumentException.class);
+    }
 }
