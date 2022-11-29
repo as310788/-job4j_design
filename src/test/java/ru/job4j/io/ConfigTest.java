@@ -66,7 +66,7 @@ class ConfigTest {
 
     @Test
     public void whenNullFormatValue() throws IllegalArgumentException {
-        String path ="app.properties";
+        String path = "app.properties";
         Config config = new Config(path);
         assertThat(config.value("Anton")).isEqualTo(null);
         assertThat(config.value("username")).isEqualTo(null);
