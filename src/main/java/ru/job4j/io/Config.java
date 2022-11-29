@@ -24,10 +24,10 @@ public class Config {
                 if (line.isEmpty() || line.startsWith("#")) {
                     continue;
                 }
-                if (!line.contains("=") || line.startsWith("=") || line.endsWith("=") || Objects.equals("=", line)) {
-                    throw new IllegalArgumentException();
+                if (!line.contains("=") || line.startsWith("=") || Objects.equals("=", line)) {
+                    throw new IllegalArgumentException("Нарушение шаблона ключ=значение");
                 }
-                String[] lines = line.split("=");
+                String[] lines = line.split("=", 2);
                 if (lines.length > 2) {
                     values.put(lines[lines.length - 2], lines[lines.length - 1]);
                 } else {
