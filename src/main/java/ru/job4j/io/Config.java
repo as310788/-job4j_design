@@ -24,7 +24,7 @@ public class Config {
                 if (line.isEmpty() || line.startsWith("#")) {
                     continue;
                 }
-                if (!line.contains("=") || line.startsWith("=") || Objects.equals("=", line)) {
+                if (!line.contains("=") || line.startsWith("=") || line.endsWith("=") || Objects.equals("=", line)) {
                     throw new IllegalArgumentException("Нарушение шаблона ключ=значение");
                 }
                 String[] lines = line.split("=", 2);
@@ -55,8 +55,8 @@ public class Config {
     }
 
     public static void main(String[] args) {
-        Config config = new Config("app.properties");
+        Config config = new Config("./data/pair_with_comment2");
         config.load();
-        System.out.println(config.value("hibernate.dialect"));
+        System.out.println(config.value("username"));
     }
 }
