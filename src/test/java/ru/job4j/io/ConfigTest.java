@@ -73,4 +73,36 @@ class ConfigTest {
         assertThatThrownBy(config::load)
                 .isInstanceOf(IllegalArgumentException.class);
     }
+
+    @Test
+    void whenException2() throws IllegalArgumentException {
+        String path = "./data/pair_with_comment2";
+        Config config = new Config(path);
+        assertThatThrownBy(config::load)
+                .isInstanceOf(IllegalArgumentException.class);
+    }
+
+    @Test
+    void whenException3() throws IllegalArgumentException {
+        String path = "./data/pair_with_comment3";
+        Config config = new Config(path);
+        assertThatThrownBy(config::load)
+                .isInstanceOf(IllegalArgumentException.class);
+    }
+
+    @Test
+    void whenException4() throws IllegalArgumentException {
+        String path = "./data/pair_with_comment4";
+        Config config = new Config(path);
+        assertThatThrownBy(config::load)
+                .isInstanceOf(IllegalArgumentException.class);
+    }
+
+    @Test
+    void whenException5() throws IllegalArgumentException {
+        String path = "./data/pair_with_comment5";
+        Config config = new Config(path);
+        assertThatThrownBy(config::load)
+                .isInstanceOf(IllegalArgumentException.class);
+    }
 }
