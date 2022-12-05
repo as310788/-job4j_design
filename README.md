@@ -56,6 +56,10 @@
 [LogFilter](https://github.com/as310788/-job4j_design/blob/master/images/LogFilter.png)
 28. 0.4. BufferedOutputStream [#252490 #358934]
 [SaveLogFiler](https://github.com/as310788/-job4j_design/blob/master/images/SaveLogFilter.png)
-1. Читаем файл конфигурации[#858 #363125]
+29. Читаем файл конфигурации[#858 #363125]
 [Config](https://github.com/as310788/-job4j_design/blob/master/images/Config.png)
+30. 2. Анализ доступности сервера. [#859]
+[Analysis](https://github.com/as310788/-job4j_design/commit/0269ee462d4ff5f57f1e0f403a5e69e622485023)
+31. 3.0. Тестирование IO [#173905]
+[AnalisisTest](https://github.com/as310788/-job4j_design/blob/master/images/AnalisisTest.png)
 
