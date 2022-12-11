@@ -62,4 +62,6 @@
 [Analysis](https://github.com/as310788/-job4j_design/commit/0269ee462d4ff5f57f1e0f403a5e69e622485023)
 31. 3.0. Тестирование IO [#173905]
 [AnalisisTest](https://github.com/as310788/-job4j_design/blob/master/images/AnalisisTest.png)
+32. 4.0. File [#252491]
+[File](https://github.com/as310788/-job4j_design/blob/master/images/File.png)
 
