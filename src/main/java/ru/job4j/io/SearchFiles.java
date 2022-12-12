@@ -26,7 +26,7 @@ public class SearchFiles extends PrintFiles {
     @Override
     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
         if (condition.test(file)) {
-            path.add(file.toAbsolutePath());
+            path.add(file);
         }
         return CONTINUE;
     }
