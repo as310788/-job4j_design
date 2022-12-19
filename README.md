@@ -64,6 +64,8 @@
 [AnalisisTest](https://github.com/as310788/-job4j_design/blob/master/images/AnalisisTest.png)
 32. 4.0. File [#252491]
 [File](https://github.com/as310788/-job4j_design/blob/master/images/File.png)
-    4.1. Сканирование файловой системы. [#106929 #370305]
+33. 4.1. Сканирование файловой системы. [#106929 #370305]
 [SearchFiles](https://github.com/as310788/-job4j_design/blob/master/images/SearchFiles.png)
+34. 4.2. Поиск дубликатов [#315066]
+[DuplicateFinder](https://github.com/as310788/-job4j_design/blob/master/images/DuplicateFinder.png)
 
