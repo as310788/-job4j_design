@@ -66,6 +66,6 @@
 [File](https://github.com/as310788/-job4j_design/blob/master/images/File.png)
 33. 4.1. Сканирование файловой системы. [#106929 #370305]
 [SearchFiles](https://github.com/as310788/-job4j_design/blob/master/images/SearchFiles.png)
-34. 4.2. Поиск дубликатов [#315066]
+34. Поиск дубликатов [#315066 #372646]
 [DuplicateFinder](https://github.com/as310788/-job4j_design/blob/master/images/DuplicateFinder.png)
 
