@@ -68,4 +68,6 @@
 [SearchFiles](https://github.com/as310788/-job4j_design/blob/master/images/SearchFiles.png)
 34. Поиск дубликатов [#315066 #372646]
 [DuplicateFinder](https://github.com/as310788/-job4j_design/blob/master/images/DuplicateFinder.png)
+35. 5. Валидация параметров запуска. [#246865]
+[Search2](https://github.com/as310788/-job4j_design/commit/363b13d6f8aa3b71a236cb1360b98a22a73d4cab)
 
