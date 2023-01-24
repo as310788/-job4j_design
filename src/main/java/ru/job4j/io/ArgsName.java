@@ -2,7 +2,6 @@ package ru.job4j.io;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Stream;
 
 public class ArgsName {
 
@@ -16,29 +15,34 @@ public class ArgsName {
         return value;
     }
 
-    private void parse(String[] args) {
-        if (args.length == 0) {
-            throw new IllegalArgumentException("Не допустимый параметр");
+    private void validate(String arg) {
+        String[] args = arg.split("=", 2);
+        if (!arg.startsWith("-")) {
+            throw new IllegalArgumentException("Не соответствует шаблону -ключ=значение");
         }
-        Stream.of(args)
-                .peek(s -> {
-                    if (!s.startsWith("-")
-                            || s.startsWith("-=")
-                            || s.startsWith("==")) {
-                        throw new IllegalArgumentException("Не соответствует шаблону -ключ=значение");
-                    }
-                })
-                .map(el -> el.split("=", 2))
-                .forEach(els -> {
-                    if (els.length != 2 || els[0].isEmpty() || els[1].isEmpty()) {
-                        throw new IllegalArgumentException(
-                                "Один из параметров неверный");
-                    }
-                    values.put(els[0].substring(1), els[1]);
-                });
+        if (!arg.contains("=")) {
+            throw new IllegalArgumentException("Не соответствует шаблону -ключ=значение");
+        }
+        if (args[0].substring(1).isEmpty()) {
+            throw new IllegalArgumentException("Не соответствует шаблону -ключ=значение");
+        }
+        if (args[1].isEmpty()) {
+            throw new IllegalArgumentException("Не соответствует шаблону -ключ=значение");
+        }
+    }
+
+    private void parse(String[] args) {
+        for (String arg : args) {
+            validate(arg);
+            String[] lines = arg.split("=", 2);
+            values.put(lines[0].substring(1), lines[1]);
+        }
     }
 
     public static ArgsName of(String[] args) {
+        if (args.length == 0) {
+            throw new IllegalArgumentException("Не допустимый параметр");
+        }
         ArgsName names = new ArgsName();
         names.parse(args);
         return names;
