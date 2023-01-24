@@ -34,7 +34,7 @@ class ConfigTest {
 
     @Test
     void whenException() throws IllegalArgumentException {
-        String path = "app.properties";
+        String path = "./data/app.properties";
         Config config = new Config(path);
         assertThatThrownBy(config::load)
                 .isInstanceOf(IllegalArgumentException.class);
@@ -42,7 +42,7 @@ class ConfigTest {
 
     @Test
     void whenNotValues() throws IllegalArgumentException {
-        String path = "app.properties";
+        String path = "./data/app.properties";
         Config config = new Config(path);
         assertThatThrownBy(config::load)
                 .isInstanceOf(IllegalArgumentException.class);
@@ -50,7 +50,7 @@ class ConfigTest {
 
     @Test
     void whenNotKey() throws IllegalArgumentException {
-        String path = "app.properties";
+        String path = "./data/app.properties";
         Config config = new Config(path);
         assertThatThrownBy(config::load)
                 .isInstanceOf(IllegalArgumentException.class);
@@ -58,7 +58,7 @@ class ConfigTest {
 
     @Test
     void whenNotAllNull() throws IllegalArgumentException {
-        String path = "app.properties";
+        String path = "./data/app.properties";
         Config config = new Config(path);
         assertThat(config.value(null)).isEqualTo(null);
         assertThatThrownBy(config::load)
@@ -67,7 +67,7 @@ class ConfigTest {
 
     @Test
     public void whenNullFormatValue() throws IllegalArgumentException {
-        String path = "app.properties";
+        String path = "./data/app.properties";
         Config config = new Config(path);
         assertThat(config.value("Anton")).isEqualTo(null);
         assertThat(config.value("username")).isEqualTo(null);
