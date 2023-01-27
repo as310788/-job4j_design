@@ -72,6 +72,6 @@
 [Search2](https://github.com/as310788/-job4j_design/commit/363b13d6f8aa3b71a236cb1360b98a22a73d4cab)
 36. 5.1. Именованные аргументы[#295518 #382486]
 [ArgsName](https://github.com/as310788/-job4j_design/blob/master/images/ArgsName.png)
-37. 14. Архивировать проект [#861 #385216]
+37. 14. Архивировать проект[#861 #385216]
 [Zip](https://github.com/as310788/-job4j_design/commit/8b871f4b0557d9ff589f3db55c22346085631a6f)
 
