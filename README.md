@@ -74,4 +74,6 @@
 [ArgsName](https://github.com/as310788/-job4j_design/blob/master/images/ArgsName.png)
 37. 14. Архивировать-проект-[#861 #385216]
 [Zip](https://github.com/as310788/-job4j_design/commit/8b871f4b0557d9ff589f3db55c22346085631a6f)
+38. 16. Кодировка [#862]
+[kodirovka](https://github.com/as310788/-job4j_design/blob/master/images/consolechat.png)
 
