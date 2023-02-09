@@ -23,10 +23,11 @@ public class ConsoleChat {
     public void run() {
         List<String> chat = new ArrayList<>();
         Scanner userIn = new Scanner(System.in);
+        String botFraze;
         String userFraze;
         String condition = CONTINUE;
         Random rand = new Random();
-        String botFraze = readPhrases().get(rand.nextInt(readPhrases().size()));
+        List<String> botAnswer = readPhrases();
         while (!OUT.equals(condition)) {
             if (CONTINUE.equals(condition)) {
                 userFraze = userIn.nextLine();
@@ -34,6 +35,7 @@ public class ConsoleChat {
                 if (OUT.equals(userFraze) || STOP.equals(userFraze)) {
                     condition = userFraze;
                 } else {
+                    botFraze = botAnswer.get(rand.nextInt(botAnswer.size()));
                     System.out.println(botFraze);
                     chat.add(botFraze);
                 }
@@ -42,6 +44,7 @@ public class ConsoleChat {
                 chat.add(userFraze);
                 if (CONTINUE.equals(userFraze)) {
                     condition = userFraze;
+                    botFraze = botAnswer.get(rand.nextInt(botAnswer.size()));
                     System.out.println(botFraze);
                     chat.add(botFraze);
                 } else if (OUT.equals(userFraze)) {
