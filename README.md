@@ -76,6 +76,6 @@
 [Zip](https://github.com/as310788/-job4j_design/commit/8b871f4b0557d9ff589f3db55c22346085631a6f)
 38. 16,,,Кодировка..[#862 #389217]
 [ConsoleChat](https://github.com/as310788/-job4j_design/blob/master/images/consolechat.png)
-39. 17. Scanner [#504791]
+39. 17. Scanner+тест[#504791]
 [CSVReader](https://github.com/as310788/-job4j_design/commit/3e00cc380dfe31ba36d77e5fca0a5eea0eef3eab)
 
