@@ -78,6 +78,6 @@
 [ConsoleChat](https://github.com/as310788/-job4j_design/blob/master/images/consolechat.png)
 39. 17. Scanner [#504791 #393762]
 [CSVReader](https://github.com/as310788/-job4j_design/commit/3e00cc380dfe31ba36d77e5fca0a5eea0eef3eab)
-40. 2. Что такое Socket? [#4850]
+40. 2. Что такое Socket???[#4850]
 [EchoServer](https://github.com/as310788/-job4j_design/commit/2c4a0794d9fc10d5bafb57ff881be22f6972c255)
 
