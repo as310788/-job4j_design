@@ -80,4 +80,6 @@
 [CSVReader](https://github.com/as310788/-job4j_design/commit/3e00cc380dfe31ba36d77e5fca0a5eea0eef3eab)
 40. 2. Что такое Socket???[#4850]
 [EchoServer](https://github.com/as310788/-job4j_design/commit/2c4a0794d9fc10d5bafb57ff881be22f6972c255)
+41. 3. Бот [#7921]
+[Bot](https://github.com/as310788/-job4j_design/commit/3d6c8bb81ee7381ffa2318c2fe39a5ec8c9d22bc)
 
