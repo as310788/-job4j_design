@@ -88,4 +88,6 @@
 [UsageLog4](https://github.com/as310788/-job4j_design/commit/5262082fad2bfd66552674e82904d327496a44a3)
 44. 3. Slf4j - вывод переменных. [#268852]
 [UserLog4j3](https://github.com/as310788/-job4j_design/blob/master/images/UserLog4j3.png)
+45. 4. Slf4j - вывод exception. [#268853]
+[EchoServer2](https://github.com/as310788/-job4j_design/commit/2c4a0794d9fc10d5bafb57ff881be22f6972c255)
 
