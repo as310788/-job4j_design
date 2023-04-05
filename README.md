@@ -86,4 +86,6 @@
 [UsageLog4j](https://github.com/as310788/-job4j_design/blob/master/images/UsageLog4j.png)
 43. 2. Simple Loggin Facade 4 Java. [#268849]
 [UsageLog4](https://github.com/as310788/-job4j_design/commit/5262082fad2bfd66552674e82904d327496a44a3)
+44. 3. Slf4j - вывод переменных. [#268852]
+[UserLog4j3](https://github.com/as310788/-job4j_design/blob/master/images/UserLog4j3.png)
 
