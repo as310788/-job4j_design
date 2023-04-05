@@ -82,4 +82,6 @@
 [EchoServer](https://github.com/as310788/-job4j_design/commit/2c4a0794d9fc10d5bafb57ff881be22f6972c255)
 41. 3. Бот [#7921]
 [Bot](https://github.com/as310788/-job4j_design/commit/3d6c8bb81ee7381ffa2318c2fe39a5ec8c9d22bc)
+42. 1. Log4j. Логирование системы. [#95335]
+[UsageLog4j](https://github.com/as310788/-job4j_design/blob/master/images/UsageLog4j.png)
 
