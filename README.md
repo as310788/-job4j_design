@@ -84,4 +84,6 @@
 [Bot](https://github.com/as310788/-job4j_design/commit/3d6c8bb81ee7381ffa2318c2fe39a5ec8c9d22bc)
 42. 1. Log4j. Логирование системы. [#95335]
 [UsageLog4j](https://github.com/as310788/-job4j_design/blob/master/images/UsageLog4j.png)
+43. 2. Simple Loggin Facade 4 Java. [#268849]
+[UsageLog4](https://github.com/as310788/-job4j_design/commit/5262082fad2bfd66552674e82904d327496a44a3)
 
