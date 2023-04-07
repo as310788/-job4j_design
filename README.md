@@ -92,4 +92,6 @@
 [EchoServer2](https://github.com/as310788/-job4j_design/commit/2c4a0794d9fc10d5bafb57ff881be22f6972c255)
 46. 5. Log4j. FileAppender и другие appenders[#504876 #407299]
 [logproperties](https://github.com/as310788/-job4j_design/blob/master/images/log4properties.png)
+47. 1. Что такое Сериализация? [#313163]
+[Contact](https://github.com/as310788/-job4j_design/blob/master/images/Contact.png)
 
