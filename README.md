@@ -96,4 +96,6 @@
 [Contact](https://github.com/as310788/-job4j_design/blob/master/images/Contact.png)
 48. 2. Формат JSON [#313164]
 [Main](https://github.com/as310788/-job4j_design/blob/master/images/Main.png)
+49. 3. Формат XML [#313165]
+[XML](https://github.com/as310788/-job4j_design/blob/master/images/XML.png)
 
