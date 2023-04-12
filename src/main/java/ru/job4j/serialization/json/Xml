@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<people english="false" experience="10">
+    <connection phone="11-111"/>
+    <specializationes>
+        <specializations>Builder</specializations>
+        <specializations>Nurse</specializations>
+        <specializations>Engineer</specializations>
+    </specializationes>
+</people>
