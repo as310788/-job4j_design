@@ -94,4 +94,6 @@
 [logproperties](https://github.com/as310788/-job4j_design/blob/master/images/log4properties.png)
 47. 1. Что такое Сериализация? [#313163]
 [Contact](https://github.com/as310788/-job4j_design/blob/master/images/Contact.png)
+48. 2. Формат JSON [#313164]
+[Main](https://github.com/as310788/-job4j_design/blob/master/images/Main.png)
 
