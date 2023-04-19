@@ -100,3 +100,5 @@
 [XML](https://github.com/as310788/-job4j_design/blob/master/images/XML.png)
 50. 4. JAXB. Преобразование XML в POJO. [#315063]
 [main](https://github.com/as310788/-job4j_design/blob/master/images/Main2.png)
+51. 5. Преобразование JSON в POJO. JsonObject [#315064]
+[Nain3](https://github.com/as310788/-job4j_design/blob/master/images/Main3.png)
