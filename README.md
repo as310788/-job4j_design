@@ -102,5 +102,5 @@
 [main](https://github.com/as310788/-job4j_design/blob/master/images/Main2.png)
 51. 5. Преобразование JSON в POJO. JsonObject [#315064]
 [Nain3](https://github.com/as310788/-job4j_design/blob/master/images/Main3.png)
-52. 3. Поиск файлов по критерию [#783] 
+52. 3. Поиск файлов по-критерию[#783] 
 [SearchFiles](https://github.com/as310788/-job4j_design/blob/master/images/SearchFiles2.png)
